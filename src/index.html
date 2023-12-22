@@ -4,38 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<header>
-    <img src="image/logo2.png" id="logo">
-    <a class="nav" href="contact.html"> Contact </a>
-    <a class="nav" href="achievment.html"> Achievments </a>
-    <a class="nav" href="travel.html"> Visited </a>
-    <a class="nav" href="hobby.html"> Hobby </a>
-    <a class="nav" href="index.html"> Home </a> 
-</header>
-<body>
-    <div class="container">
-        <div class="box-1">
-            <img class="img" src="image/matric picture.jpg" alt="">
-            <h1>Hello Everyone </h1>
-            <p>Welcome to my website!
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
+</head>
+<body class="bg-green-900">
+    <header class="bg-green-900 py-4 px-6 shadow-md">
+        <img src="image/logo2.png" class="h-10 w-auto rounded-full" alt="Logo">
+        <nav class="md:flex md:items-center justify-end md:space-x-4">
+            <a href="indext.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Home</a>
+            <a href="hobbyt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Hobby</a>
+            <a href="travelt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Visited</a>
+            <a href="achievmentt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Achievements</a>
+            <a href="contactt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Contact</a>
+        </nav>
+    </header>
+    <div class="container mx-auto px-2 py-4">
+        <div class="content md:flex">
+            <img src="image/matric picture.jpg" class="md:w-1/2 sm:w-full lg:w-2/3 rounded-lg mb-3" alt="Matric Picture">
+            <div class="text-yellow-100 mx-auto px-2"> 
+                <h1 class="text-4xl text-center font-bold mb-2">Hello Everyone</h1>
+                <p class="text-lg text-yellow-100">
+                Welcome to my website!
                 My name is Ahmed. I am a student at AAiT, where I am studying software engineering. I live a simple life, but I enjoy traveling and playing sports, especially football. I have also achieved some things that I am proud of, and you can read about them on the following pages.
-                
                 I am passionate about software engineering. I enjoy the challenge of solving problems and creating new things. I am always looking for ways to improve my skills and learn new things.
-                
                 I am also a big fan of sports. I especially enjoy playing football. I love the competition and the camaraderie of being part of a team.
-                
-                I love to travel and experience new cultures. I always learn something new on each trip. 
+                I love to travel and experience new cultures. I always learn something new on each trip.
                 I love animals.
-                
                 I am grateful for the opportunities that I have been given. I am determined to make the most of them and achieve my goals.
-            </p>
-        </div>            
+                </p>
+            </div>
+        </div>
     </div>
+    <footer class="sm:items-center  justify-end md:space-x-4 py-4 px-6 ">
+        <a href="hobbyt.html" class="nav__link justify-start bg-blue-400 rounded-full py-2 px-2">Next Page</a>
+    </footer>
 </body>
-<footer class="footerall">
-    <a href="hobby.html" class="nav">Next Page</a>
-</footer>
 </html>
