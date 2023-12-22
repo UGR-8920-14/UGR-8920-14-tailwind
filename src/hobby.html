@@ -4,73 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobby Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<header>
-    <img src="image/logo2.png" id="logo">
-    <a class="nav" href="contact.html"> Contact </a>
-    <a class="nav" href="achievment.html"> Achievments </a>
-    <a class="nav" href="travel.html"> Visited </a>
-    <a class="nav" href="hobby.html" > Hobby </a>
-    <a class="nav" href="index.html"> Home </a> 
-</header>
-<body>
-    <h1 id="title">Hobbies</h1>
-    <div class="block">
-        <h3>Football</h3>
-        <p>On the field, I find my calling, whether it's thwarting attacks as a steadfast defender or leaping to save shots as an agile goalkeeper. Each position offers its unique challenges and rewards, demanding unwavering focus, tactical awareness, and lightning reflexes. As a defender, I relish the thrill of anticipating opponents' moves, intercepting passes, and disrupting their offensive rhythm. The adrenaline rush of thwarting a goal-scoring opportunity is unmatched.
+<body class="bg-green-800">
+    <header class="bg-green-900 py-4 px-6 shadow-md">
+        <img src="image/logo2.png" class="h-10 w-auto rounded-full" alt="Logo">
+        <nav class="sm:flex sm:items-center justify-end md:space-x-4">
+            <a href="indext.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Home</a>
+            <a href="hobbyt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Hobby</a>
+            <a href="travelt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Visited</a>
+            <a href="achievmentt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Achievements</a>
+            <a href="contactt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Contact</a>
+        </nav>
+    </header>
 
-            When I step between the posts as the goalkeeper, I become the last line of defense, a guardian protecting our net from the relentless onslaught. The anticipation of facing shots, the quick reflexes to react, and the satisfaction of deflecting powerful strikes are exhilarating. Football is more than just a sport for me; it's an outlet for my energy, a source of camaraderie, and a platform to test my limits.</p>
+    <h1 id="title" class="text-3xl font-bold mt-8 mb-4 text-center">Hobbies</h1>
+
+    <div class="p-4 lg:p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
+        <div class="w-full lg:w-full md:mr-4 mb-4 md:mb-0">
+            <h3 class="text-xl font-semibold mb-2">Football</h3>
+            <p class="text-yellow-100">
+                On the field, I find my calling, whether it's thwarting attacks as a steadfast defender or leaping to save shots as an agile goalkeeper. Each position offers its unique challenges and rewards, demanding unwavering focus, tactical awareness, and lightning reflexes. As a defender, I relish the thrill of anticipating opponents' moves, intercepting passes, and disrupting their offensive rhythm. The adrenaline rush of thwarting a goal-scoring opportunity is unmatched.
+                When I step between the posts as the goalkeeper, I become the last line of defense, a guardian protecting our net from the relentless onslaught. The anticipation of facing shots, the quick reflexes to react, and the satisfaction of deflecting powerful strikes are exhilarating.
+                </p>
+        </div>
+        <div class="w-full py-4 px-2 lg:w-full">
+            <img src="image/ball.jpg" alt="" class="w-full rounded-lg">
+        </div>
+        <div class="block py-4 px-2">
+            <video src="image/football.mp4" controls="" class="w-full rounded-lg"></video>
+        </div>
     </div>
 
-    <div class="block">
-        <img src="image/ball.jpg" alt="" >
+    <div class="p-4 lg:p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
+        <div class="w-full lg:w-1/2 md:mr-4 mb-4 md:mb-0">
+            <h3 class="text-xl font-semibold mb-2">Traveling</h3>
+            <p class="text-yellow-100">
+                Traveling is my favorite way to spend my free time. It allows me to explore new places, meet new people, and learn about different cultures. I have been fortunate enough to travel to many different parts of my country.
+                One of my favorite places to visit is the city of Dessie in Ethiopia. It is a beautiful city with a rich history and culture. I love to wander through the old city and explore the narrow streets and markets.
+                Another place that I loved is Borena in Ethiopia.
+                I am always looking for new places to visit in my country. For more, go to the next page.
+            </p>
+        </div>
+        <div class="w-full lg:w-1/2">
+            <img src="image/travel.jpg" alt="" class="w-full rounded-lg">
+        </div>
+        <div class="block  py-4 px-2">
+            <video src="image/trip2.mp4" controls="" class="w-full rounded-lg"></video>
+        </div>
     </div>
 
-    <div class="block">
-        <video controls muted loop src="football.mp4" ></video>
+    <div class="p-4 lg:p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
+        <div class="w-full lg:w-1/2 md:mr-4 mb-4 md:mb-0">
+            <h3 class="text-xl font-semibold mb-2">Reading</h3>
+            <p class="text-yellow-100">
+                    As an avid reader, I find immense joy and satisfaction in immersing myself in the world of books. With each turn of the page, I embark on a journey of discovery, expanding my knowledge, enhancing my vocabulary, and broadening my perspectives. Reading has become an integral part of my life, a source of endless fascination and personal growth.
+                    Through the power of words, I have traversed through time, exploring different cultures, historical periods, and scientific concepts. I have delved into the depths of human emotion, experiencing the joys, sorrows, and triumphs of characters from all walks of life. With each literary encounter, I gain a deeper understanding of myself and the world around me.
+                    Reading has not only enriched my mind but also nurtured my soul. The rhythmic cadence of prose and the evocative imagery of poetry transport me to serene landscapes and bustling cities, evoking a myriad of emotions. I find solace in the comforting embrace of words, a refuge from the daily clamor of life.
+            </p>
+        </div>
+        <div class="w-full lg:w-1/2">
+            <img src="image/reading.jpg" alt="" class="w-full rounded-lg">
+        </div>
     </div>
 
-    <div class="block">
-        <h3>Traveling</h3>
-        <p>Traveling is my favorite way to spend my free time. It allows me to explore new places, meet new people, and learn about different cultures. I have been fortunate enough to travel to many different parts of my country.
-
-            One of my favorite places to visit is the city of Dessie in Ethiopia. It is a beautiful city with a rich history and culture. I love to wander through the old city and explore the narrow streets and markets.
-            
-            Another place that I loved is Borena in Ethiopia.
-            
-            I am always looking for new places to visit in my country. For more go to the next page.
-                        
-    </div>
-
-    <div class="block">
-        <img src="image/travel.jpg" alt="" >
-    </div>
-
-    <div class="block">
-        <video controls muted loop src="image/trip2.mp4" controls="" ></video>
-    </div>
-
-    <div class="block">
-        <h3>Reading</h3>
-        <p>As an avid reader, I find immense joy and satisfaction in immersing myself in the world of books. With each turn of the page, I embark on a journey of discovery, expanding my knowledge, enhancing my vocabulary, and broadening my perspectives. Reading has become an integral part of my life, a source of endless fascination and personal growth.
-
-            Through the power of words, I have traversed through time, exploring different cultures, historical periods, and scientific concepts. I have delved into the depths of human emotion, experiencing the joys, sorrows, and triumphs of characters from all walks of life. With each literary encounter, I gain a deeper understanding of myself and the world around me.
-            
-            Reading has not only enriched my mind but also nurtured my soul. The rhythmic cadence of prose and the evocative imagery of poetry transport me to serene landscapes and bustling cities, evoking a myriad of emotions. I find solace in the comforting embrace of words, a refuge from the daily clamor of life.
-            
-    </div>
-
-    <div class="block">
-        <img src="image/reading.jpg" alt="">
-    </div>
-
-
-
-    
+    <footer class="sm:items-center md:space-x-4 py-4 px-6 ">
+        <a href="indext.html" id="contactf" class="nav__link justify-start bg-blue-400 rounded-full py-2 px-2">Previous Page</a>
+        <a href="travelt.html" class="nav__link bg-blue-400 justify-end rounded-full py-2 px-2">Next Page</a>
+    </footer>
 </body>
-<footer class="footerall">
-    <a href="travel.html" class="nav">Next Page</a>
-    <a id="contactf" href="index.html" class="nav">Previous Page</a>
-</footer>
 </html>
