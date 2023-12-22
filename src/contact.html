@@ -3,31 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contanct Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact Page</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<header>
-    <img src="image/logo2.png" id="logo">
-    <a class="nav" href="contact.html"> Contact </a>
-    <a class="nav" href="achievment.html"> Achievments </a>
-    <a class="nav" href="travel.html"> Visited </a>
-    <a class="nav" href="hobby.html" > Hobby </a>
-    <a class="nav" href="index.html"> Home </a> 
-</header>
-<body>
-    <div class="container">
-    <H1>CONTACT</H1>
+<body class="bg-green-800">
+    <header class="bg-green-900 py-4 px-6 shadow-md">
+        <img src="image/logo2.png" class="h-10 w-auto rounded-full" alt="Logo">
+        <nav class="md:flex md:items-center justify-end md:space-x-4">
+            <a href="indext.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Home</a>
+            <a href="hobbyt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Hobby</a>
+            <a href="travelt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Visited</a>
+            <a href="achievmentt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Achievements</a>
+            <a href="contactt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container mx-auto">
+        <h1 class="text-2xl text-center mb-8 container__title">CONTACT</h1>
     </div>
 
-    <div class="cont">
-        <ul>
-            <li>Phone number.....................+251920928989</li>
-            <li>Email adress.......................ahmedmuh543@gmail.com</li>
-            <li>Telegram............................@amsa889</li>
+    <div class="cont mx-auto">
+        <ul class="list-disc pl-4 text-yellow-100 leading-relaxed cont__list">
+            <li class="cont__item">Phone number: +251920928989</li>
+            <li class="cont__item">Email address: ahmedmuh543@gmail.com</li>
+            <li class="cont__item">Telegram: @amsa889</li>
         </ul>
     </div>
+
+    <footer class="sm:items-center md:space-x-4 py-4 px-6 ">
+        <a href="achievmentt.html" id="contactf" class="nav__link justify-start bg-blue-400 rounded-full py-2 px-2">Previous Page</a>
+    </footer>
 </body>
-<footer id="contactf">
-    <a href="achievment.html" class="nav">Previous Page</a>
-</footer>
 </html>
+
