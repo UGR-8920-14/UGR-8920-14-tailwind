@@ -4,79 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<header>
-    <img src="image/logo2.png" id="logo">
-    <a class="nav" href="contact.html"> Contact </a>
-    <a class="nav" href="achievment.html"> Achievments </a>
-    <a class="nav" href="travel.html"> Visited </a>
-    <a class="nav" href="hobby.html" > Hobby </a>
-    <a class="nav" href="index.html"> Home </a> 
-</header>
-<body>
-    <div class="container">
-    <H1>VISITED PLACES</H1>
+<body class="bg-green-800">
+    <header class="bg-green-900 py-4 px-6 shadow-md">
+        <img src="image/logo2.png" class="h-10 w-auto rounded-full" alt="Logo">
+        <nav class="sm:flex sm:items-center justify-end md:space-x-4">
+            <a href="indext.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Home</a>
+            <a href="hobbyt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Hobby</a>
+            <a href="travelt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Visited</a>
+            <a href="achievmentt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Achievements</a>
+            <a href="contactt.html" class="nav__link bg-blue-400 rounded-full py-2 px-2">Contact</a>
+        </nav>
+    </header>
 
-    <div class="block">
-        <h1>Borena Trip</h1>
-        <p>
-            I have travelled to different places, one is borena which is a very beautiful place to visit. From the things I have learned from that society is that if a gues comes welcome them in a very good manner. the Borena are very welcoming and good people.
-        </p>
-    </div>
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold mb-8 text-center text-yellow-100">VISITED PLACES</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="block">
+                <h1 class="text-xl font-semibold mb-2 text-yellow-100">Borena Trip</h1>
+                <p class="text-yellow-100">
+                    I have travelled to different places, one is borena which is a very beautiful place to visit. From the things I have learned from that society is that if a guest comes, welcome them in a very good manner. The Borena are very welcoming and good people.
+                </p>
+            </div>
 
-    <div class="block">
-        <img src="image/travel.jpg" alt="" >
-    </div>
-
-    <div class="block">
-        <img src="image/travel3.jpg" alt="" >
-    </div>
-
-    <div class="block">
-        <img src="image/travel4.jpg" alt="">
-    </div>
-
-    <div class="block">
-        <video controls muted loop src="image/trip3.mp4" controls=""></video>
-    </div>
-
-    <div class="block">
-        <img src="image/travel2.jpg" alt="">
-    </div>
-
+            <div class="block">
+                <img src="image/travel.jpg" alt="" class="w-full rounded-lg">
+            </div>
     
-    <div class="block">
-        <h1>Dessie Trip</h1>
-        <p>
-            The Dessie trip is always a special trip which is because i have many relatives their and we go to the village area because my ansestors are farmers and i love being there. another special thing there is that we go frequently. On the road there is a place called Fontenina which offers fresh Papaya which makes you cool.
-        </p>
+            <div class="block">
+                <img src="image/travel3.jpg" alt="" class="w-full rounded-lg">
+            </div>
+    
+            <div class="block">
+                <img src="image/travel4.jpg" alt="" class="w-full rounded-lg">
+            </div>
+    
+            <div class="block">
+                <video src="image/trip1.mp4" controls="" class="w-full rounded-lg"></video>
+            </div>
+    
+            <div class="block">
+                <img src="image/travel2.jpg" alt="" class="w-full rounded-lg">
+            </div>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-8">
+            <div class="block">
+                <h1 class="text-xl font-semibold mb-2 text-yellow-100">Dessie Trip</h1>
+                <p class="text-yellow-100">
+                    The Dessie trip is always a special trip because I have many relatives there and we go to the village area because my ancestors are farmers and I love being there. Another special thing there is that we go frequently. On the road, there is a place called Fontenina which offers fresh Papaya which makes you cool.
+                </p>
+            </div>
+    
+            <div class="block">
+                <img src="image/dessie1.jpg" alt="" class="w-full rounded-lg">
+            </div>
+    
+            <div class="block">
+                <img src="image/dessie2.jpg" alt="" class="w-full rounded-lg">
+            </div>
+    
+            <div class="block">
+                <img src="image/dessie3.jpg" alt="" class="w-full rounded-lg">
+            </div>
+    
+            <div class="block">
+                <video src="image/dessie (1).mp4" controls="" class="w-full rounded-lg"></video>
+            </div>
+    
+            <div class="block">
+                <img src="image/dessie4.jpg" alt="" class="w-full rounded-lg">
+            </div>
     </div>
 
-    <div class="block">
-        <img src="image/dessie1.jpg" alt="">
-    </div>
-
-    <div class="block">
-        <img src="image/dessie2.jpg" alt="">
-    </div>
-
-    <div class="block">
-        <img src="image/dessie3.jpg" alt="">
-    </div>
-
-    <div class="block">
-        <video controls muted loop src="image/dessie (1).mp4" controls=""></video>
-    </div>
-
-    <div class="block">
-        <img src="image/dessie4.jpg" alt="">
-    </div>
-
-    </div>
+    <footer class="sm:items-center md:space-x-4 py-4 px-6 ">
+        <a href="hobbyt.html" id="contactf" class="nav__link justify-start bg-blue-400 rounded-full py-2 px-2">Previous Page</a>
+        <a href="achievmentt.html" class="nav__link bg-blue-400 justify-end rounded-full py-2 px-2">Next Page</a>
+    </footer>
 </body>
-<footer class="footerall">
-    <a href="achievment.html" class="nav">Next Page</a>
-    <a id="contactf" href="hobby.html" class="nav">Previous Page</a>
-</footer>
 </html>
